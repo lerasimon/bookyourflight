@@ -3,10 +3,8 @@ form {
     width: 650px;
     height: 500px;
     background: linear-gradient(to bottom, lavender, whitesmoke );
-    position: absolute;
-    margin-left: 250px;
+    margin: 30px 250px;
 }
-
 
 .passenger {
     font-family: 'Chakra Petch', sans-serif;
