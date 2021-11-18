@@ -1,9 +1,9 @@
 form {
-    border: 2px solid lightblue;
+    border-collapse:collapse;
     margin-left: 250px;
     width: 650px;
     height: 400px;
-    background-color: lavender;
+    background: linear-gradient(to right, lavender, whitesmoke );
 }
 
 .passenger {
@@ -35,9 +35,11 @@ form {
 }
 
 .airport {
-    background: linear-gradient(to right, lightblue, white);
-    border: 1px solid lightblue;
+    background: linear-gradient(to right, lightblue, whitesmoke );
+    border-collapse:collapse;
     font-family: 'Chakra Petch', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .airport label {
@@ -88,7 +90,7 @@ body {
 #logo {
   height: 100px;
   display: block;
-  margin: 30px 40px;
+  margin: auto;
 }
 
 #plane {
@@ -97,3 +99,4 @@ body {
     margin-top: 10px;
     margin-right: 5px;
 }
+
