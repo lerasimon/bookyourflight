@@ -6,7 +6,7 @@
         <link href='favicon.png' rel='shortcut icon' type='img/png' />
         <link href='style.css' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&family=Space+Mono&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -20,15 +20,38 @@
                 <img src='Aeroflot.svg' id='plane'>
                 <p>Choose your airport</p>
                 <label for='from'>From</label>
-                <input name='from' id='from' type='text'>
+                <input name='from' id='from' type='text' list='citiesfrom'>
+                <datalist id='citiesfrom'>
+                    <option value='Moscow'></option>
+                    <option value='Bucharest'></option>
+                    <option value='London'></option>
+                    <option value='Paris'></option>
+                    <option value='Rome'></option>
+                    <option value='Vienna'></option>
+                    <option value='Mars'></option>
+                    <option value='Jupiter'></option>
+                    <option value='Venus'></option>      
+                </datalist>
                 <label for='to'>To</label>
-                <input name='to' id='to' type='text'>
+                <input name='to' id='to' type='text' list='citiesto'>
+                <datalist id='citiesto'>
+                    <option value='Moscow'></option>
+                    <option value='Bucharest'></option>
+                    <option value='London'></option>
+                    <option value='Paris'></option>
+                    <option value='Barcelona'></option>
+                    <option value='Rome'></option>
+                    <option value='Vienna'></option>
+                    <option value='Mars'></option>
+                    <option value='Jupiter'></option>
+                    <option value='Venus'></option>   
+                </datalist>
             </section>
             <section class='passenger'>
                 <h2>Passenger Information</h2>
                 <p>Please provide your passport details</p>
                 <label for='name'>Passenger's name</label>
-                <input name='name' id='name' type='text'>
+                <input name='name' id='name' type='text' autocomplete='off'>
                 <label for='passport'>Passport number</label>
                 <input name='passport' id='passport' type='text'>
             </section>

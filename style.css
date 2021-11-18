@@ -23,7 +23,7 @@ form {
 .airport {
     background-color: lightblue;
     border: 1px solid lightblue;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .airport label {
@@ -33,9 +33,10 @@ form {
 
 .airport p {
     margin-left: 10px;
+    text-transform:uppercase;
 }
 
-.aiport label:hover {
+.airport label:hover {
     color: black;
 }
 
@@ -47,6 +48,7 @@ form {
 
 h2 {
     text-align:center;
+    color: navy;
 }
 
 body {
@@ -54,7 +56,7 @@ body {
 }
 
 .passport-type {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     margin-left: 10px;
     padding: 15px;
 }
