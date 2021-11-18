@@ -3,7 +3,7 @@ form {
     width: 650px;
     height: 500px;
     background: linear-gradient(to bottom, lavender, whitesmoke );
-    margin: 30px 250px;
+    margin: auto;
 }
 
 .passenger {
