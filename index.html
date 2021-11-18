@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>flight|form</title>
+        <link href='favicon.png' rel='shortcut icon' type='img/png' />
+        <link href='style.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,500&family=Space+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id='overlay'>
+            <img src='Aeroflot-Logo.png' id='logo'>
+        <div class='title'>
+            <h1>Reserve your flight with Aeroflot</h1>
+        </div>
+        <form action='/example.html' method='POST'>
+            <section class='airport'>
+                <img src='Aeroflot.svg' id='plane'>
+                <p>Choose your airport</p>
+                <label for='from'>From</label>
+                <input name='from' id='from' type='text'>
+                <label for='to'>To</label>
+                <input name='to' id='to' type='text'>
+            </section>
+            <section class='passenger'>
+                <h2>Passenger Information</h2>
+                <p>Please provide your passport details</p>
+                <label for='name'>Passenger's name</label>
+                <input name='name' id='name' type='text'>
+                <label for='passport'>Passport number</label>
+                <input name='passport' id='passport' type='text'>
+            </section>
+            <section class='passport-type'>
+                <p>Type of passport</p>
+                <input type='radio' id='int' name='passport-type' value='int'>
+                <label for='int'>International</label>
+                <input type='radio' id='domestic' name='passport-type' value='domestic'>
+                <label for='domestic'>Domestic</label>
+                <input type='radio' id='diplomatic' name='passport-type' value='diplomatic'>
+                <label for='diplomatic'>Diplomatic</label>
+            </section>
+        </form>
+    </body>

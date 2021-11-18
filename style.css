@@ -1,0 +1,79 @@
+form {
+    border: 2px solid lightblue;
+    margin-left: 250px;
+    width: 650px;
+    height: 400px;
+    background-color: lavender;
+}
+
+.passenger {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.passenger label {
+    color:lightslategrey;
+}
+
+.passenger label:hover {
+    color: black;
+}
+
+.airport {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.airport label {
+   color: lightslategrey;
+   margin-left: 10px;
+}
+
+.airport p {
+    margin-left: 10px;
+}
+
+.aiport label:hover {
+    color: black;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color:navy;
+}
+
+h2 {
+    text-align:center;
+}
+
+body {
+    background-color: linen;
+}
+
+.passport-type {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+#overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+}
+
+#logo {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+#plane {
+    height: 50px;
+    float:right;
+}
