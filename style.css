@@ -35,7 +35,7 @@ form {
 }
 
 .airport {
-    background-color: lightblue;
+    background: linear-gradient(to right, lightblue, white);
     border: 1px solid lightblue;
     font-family: 'Chakra Petch', sans-serif;
 }
@@ -88,10 +88,12 @@ body {
 #logo {
   height: 100px;
   display: block;
-  margin: auto;
+  margin: 30px 40px;
 }
 
 #plane {
     height: 50px;
     float:right;
+    margin-top: 10px;
+    margin-right: 5px;
 }
