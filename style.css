@@ -57,7 +57,7 @@ form {
     color: black;
 }
 
-.title {
+h1 {
     text-align: center;
     font-family: 'Prompt', sans-serif;
     color:navy;
@@ -99,5 +99,16 @@ body {
     float:right;
     margin-top: 10px;
     margin-right: 5px;
+}
+
+.submission {
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 10px;
+    padding: 15px;
+
+}
+
+.button {
+    margin-left: 25px;
 }
 

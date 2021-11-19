@@ -12,9 +12,7 @@
     <body>
         <section id='overlay'>
             <img src='Aeroflot-Logo.png' id='logo'>
-        <div class='title'>
             <h1>Reserve your flight with Aeroflot</h1>
-        </div>
         <form action='/example.html' method='POST'>
             <section class='airport'>
                 <img src='Aeroflot.svg' id='plane'>
@@ -47,6 +45,7 @@
                     <option value='Venus'></option>   
                 </datalist>
             </section>
+    
             <section class='passenger'>
                 <h2>Passenger Information</h2>
                 <p>Please provide your passport details</p>
@@ -64,6 +63,7 @@
                 <input type='radio' id='diplomatic' name='passport-type' value='diplomatic'>
                 <label for='diplomatic'>Diplomatic</label>
             </section>
+
             <section class='citizenship'>
                 <label for='citizen'>Citizenship</label>
                 <select name='citizen' id='citizen'>
@@ -72,6 +72,16 @@
                     <option value='earth'>Earth</option>
                     <option value='universe'>Universe</option>
                     <option value='other'>Other</option>
+                </select>
+            </section>
+            <section class='submission'>
+                <label for='submission'>I confirm provided information</label>
+                <input type='checkbox' name='submission' id='confirm' name='confirm'>
+                <label for='Confirm'>Yes</label>
+            </section>
+            <section class='button'>
+                <input type='submit' value='send'>
             </section>
         </form>
+        
     </body>
